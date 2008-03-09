@@ -1,0 +1,70 @@
+php-rar
+------------------------------------------
+PHP extension for reading Rar archives using bundled unRAR library.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  php-5.2.5-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
+  binutils-20060817-1
+  cygport-0.3.8-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  php-pear-5.2.5-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://pecl.php.net/package/rar/
+
+Canonical download:
+  http://pecl.php.net/get/rar
+
+-------------------------------------------
+
+Build instructions:
+  unpack php-rar-1.0.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./php-rar-1.0.0-X.cygport all
+
+This will create:
+  /usr/src/php-rar-1.0.0-X-src.tar.bz2
+  /usr/src/php-rar-1.0.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/php5/conf.d/rar.ini
+  /usr/lib/php/20060613/rar.dll
+  /usr/share/doc/php-rar-1.0.0/CREDITS
+  /usr/share/pear/.registry/.channel.pecl.php.net/rar.reg
+  /usr/share/pear/doc/rar/CREDITS
+  /usr/share/pear/doc/rar/example.php
+  /usr/share/pear/doc/rar/unrar/LICENSE.txt
+  /usr/share/pear/doc/rar/unrar/README.txt
+  /usr/share/pear/test/rar/tests/001.phpt
+  /usr/share/pear/test/rar/tests/002.phpt
+  /usr/share/pear/test/rar/tests/003.phpt
+  /usr/share/pear/test/rar/tests/004.phpt
+  /usr/share/pear/test/rar/tests/latest_winrar.rar
+  /usr/share/pear/test/rar/tests/linux_rar.rar
+
+------------------
+
+Port Notes:
+
+----- version 1.0.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,4 @@
+category: Archive PHP
+requires: cygwin php
+sdesc: "PHP RAR extension"
+ldesc: "PHP extension for reading Rar archives using bundled unRAR library."
